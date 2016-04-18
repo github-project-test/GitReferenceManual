@@ -1,1 +1,1 @@
-# GitReferenceManual
+# Git Reference Manual
