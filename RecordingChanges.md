@@ -25,7 +25,7 @@
 
 	nothing added to commit but untracked files present (use "git add" to track)
 ```
-5. 在状态报告中可以看到新建的 README 文件出现在 Untracked files 下面。
+##### 在状态报告中可以看到新建的 README 文件出现在 Untracked files 下面。
     未跟踪的文件意味着 Git 在之前的快照（提交）中没有这些文件；
     Git 不会自动将之纳入跟踪范围，除非你明明白白地告诉它“我需要跟踪该文件”， 这样的处理让你不必担心将生成的二进制文件或其它不想被跟踪的文件包含进来。 不过现在的例子中，我们确实想要跟踪管理 README 这个文件。
 
