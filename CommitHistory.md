@@ -16,9 +16,8 @@ Mac-Pro: jasper$ git log
 | --since      |    按时间显示 |
 |  --until      |    显示条数 |
 
-
-```
 #####**git log --pretty=format:"%h %s" --graph**
+```
 * 2d3acf9 ignore errors from SIGCHLD on trap
 *  5e3ee11 Merge branch 'master' of git://github.com/dustin/grit
 |\
