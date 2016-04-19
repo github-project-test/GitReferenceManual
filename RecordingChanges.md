@@ -30,10 +30,10 @@
     Git 不会自动将之纳入跟踪范围，除非你明明白白地告诉它“我需要跟踪该文件”， 这样的处理让你不必担心将生成的二进制文件或其它不想被跟踪的文件包含进来。 不过现在的例子中，我们确实想要跟踪管理 README 这个文件。
 
 ### ** 跟踪新文件 ** 
- 使用命令 git add 开始跟踪一个文件。 所以，要跟踪 README 文件，运行：
+ 使用命令 git add 开始跟踪一个文件。 所以，要跟踪 NEWFILE.md 文件，运行：
 
 ```
-	$ git add NEWFILE.mdgit add NEWFILE.md
+	$ git add NEWFILE.md
 ```
  此时再运行 git status 命令，会看到 NEWFILE.md 文件已被跟踪，并处于暂存状态：
 ```
@@ -42,16 +42,13 @@
 		Changes to be committed:
 		  (use "git reset HEAD <file>..." to unstage)
 
-    	new file:   README
+    	new file:   NEWFILE.md
 ```
  只要在 Changes to be committed 这行下面的，就说明是已暂存状态。 
  	如果此时提交，那么该文件此时此刻的版本将被留存在历史记录中。
+#### 如果遇到不能提交 改个名字加入版本控制在提交
 ```
-	
+	使用简短信息查看状态 git status -s or --short
 ```
-```
-	
-```
-```
-	
-```
+
+
