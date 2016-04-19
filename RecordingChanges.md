@@ -67,6 +67,27 @@
 #### **跳过使用暂存区域**
  1. 虽然暂存提供了精细化的管理，但有时太过于繁琐，可以使用 -a 跳过
 
+#### **移除文件**
+ 1. rm file
+ 2. git rm fiel
+
+#### **移动文件**
+ 1. git mv file_from file_to
+```
+	$ git mv README.md README
+	$ git status
+	On branch master
+	Changes to be committed:
+	  (use "git reset HEAD <file>..." to unstage)
+
+    renamed:    README.md -> README
+```
+ 2. 其实，运行 git mv 就相当于运行了下面三条命令：
+```
+	$ mv README.md README
+	$ git rm README.md
+	$ git add README
+```
 
 
 
