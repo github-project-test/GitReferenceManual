@@ -20,3 +20,6 @@
 
 ## 查看某一项用户配置
  1. git config user.name
+
+## 使用帮助
+ 1. git help <command>
