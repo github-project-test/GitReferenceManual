@@ -1,3 +1,3 @@
-# Test git diff color modify aaaa
+# Test git diff color modify
 
 ## add git color
